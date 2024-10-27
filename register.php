@@ -8,7 +8,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $to = 'hzsa.anonymous@gmail.com'; // tempat ubah email
     $subject = 'Pendaftaran Baru';
     $message = "Nama Panggilan: $nickname\nAlamat: $address\nNo. KTP: $ktp\n";
-    $headers = "From: no-reply@domainanda.com";
+    $headers = "From: no-reply@https://hzsa-anony.github.io/rahmatullah/";
 
     mail($to, $subject, $message, $headers);
 
